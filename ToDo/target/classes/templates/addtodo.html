@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff700; /* Bright Yellow */
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background: black;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+            width: 500px; /* Increased width */
+            text-align: center;
+            display: flex;
+            flex-direction: column; /* Align items in a column */
+            align-items: center; /* Center align items */
+        }
+        h1 {
+            color: #fff700;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+        label {
+            text-align: left;
+            color: yellow;
+            font-weight: bold;
+            font-size: 18px;
+            width: 100%;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 2px solid yellow;
+            border-radius: 8px;
+            background: yellow;
+            color: black;
+            font-size: 16px;
+        }
+        textarea {
+            height: 100px; /* Set height for better visibility */
+            resize: none; /* Prevent resizing */
+        }
+        button {
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: #fff500; /* Slightly lighter yellow */
+        }
+    </style>
+</head>
+<body>
+<form action="/addtodo" method="post">
+    <h1>Add Task</h1>
+
+    <label for="number">Task Number:</label>
+    <input type="number" id="number" name="number" required>
+
+    <label for="task">Task </label>
+    <input type="text" id="task" name="task" required>
+
+
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
