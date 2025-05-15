@@ -52,15 +52,15 @@ Click "Delete" next to any task to remove it
 Project Structure
 
 📦 todo-list-springboot
- ┣ 📂 src/main/java/com/todo/controller
- ┃ ┣ 📜 ToDoController.java
- ┣ 📂 src/main/java/com/todo/model
- ┃ ┣ 📜 ToDoModel.java
- ┣ 📂 src/main/resources/templates
- ┃ ┣ 📜 home.html
- ┃ ┣ 📜 addtodo.html
- ┣ 📜 application.properties
- ┗ 📜 pom.xml
+ ┣ 📂 src/main/java/com/todo/controller<br>
+ ┃ ┣ 📜 ToDoController.java<br>
+ ┣ 📂 src/main/java/com/todo/model<br>
+ ┃ ┣ 📜 ToDoModel.java<br>
+ ┣ 📂 src/main/resources/templates<br>
+ ┃ ┣ 📜 home.html<br>
+ ┃ ┣ 📜 addtodo.html<br>
+ ┣ 📜 application.properties<br>
+ ┗ 📜 pom.xml<br>
 
 Contributions
 
@@ -68,4 +68,4 @@ Feel free to fork and contribute! Open a pull request with any improvements.
 
 License
 
-This project is open-source under the MIT License.
+This project is licensed for free for personal and commercial use. See LICENSE for details
